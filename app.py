@@ -25,7 +25,7 @@ def eightball():
         answer = random.choice(answers)
         print('8ballquestion: ' + res)
         return answer
-        # return render_template("8ball.html", answer=answer, question=res)
+    return render_template("8ball.html", answer=answer, question=res)
 
 
 if __name__ == '__main__':
