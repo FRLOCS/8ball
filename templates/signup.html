@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Sign up!</h1>
+    <form action="{{signup}}" method="POST"> 
+        <label for="fname">First Name</label> <br>
+        <input type="text" id="fname" name="fname"> <br>
+        <label for="lname">Last Name</label> <br>
+        <input type="text" id="lname"> <br>
+        <label for="email">Email</label> <br>
+        <input type="email" id="email"> <br>
+        <input type="radio" id="subscribe"> 
+        <label for="subscribe">Subscribe?</label> <br>
+        <input type="radio" id="dont">
+        <label for="dont">Don't Subscribe</label> <br>
+        <input type="submit"> 
+    </form>
+
+    <div popover id="ad">
+        <img src="https://www.restaurantmagazine.com/wp-content/uploads/2016/10/Wendys-Adds-Swiss-Jr-Bacon-Cheeseburger-to-4-for-4-Meal.jpg">
+        <h1>4 FOR 4$ NOW AT WENDYS</h1>
+        <h1>4 FOR 4$ NOW AT WENDYS</h1>
+        <h1>4 FOR 4$ NOW AT WENDYS</h1>
+        <h1>4 FOR 4$ NOW AT WENDYS</h1>
+    </div>
+    <button popovertarget="ad"> Click me for more info</button>
+</body>
+</html>
